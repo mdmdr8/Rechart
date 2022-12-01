@@ -5,7 +5,7 @@ import axios from 'axios';
 import SubwaySheet from "./SubwaySheet";
 import SubwayAreaChart from "./SubwayAreaChart";
 import SubwayBarChart from "./SubwayBarChart";
-// import SubwayLineChart from "./SubwayLineChart";
+import SubwayLineChart from "./SubwayLineChart";
 // import SubwayComposedChart from "./SubwayComposedChart";
 
 function SubwayApi() {
@@ -29,7 +29,7 @@ function SubwayApi() {
             {viewChart && (
                 <>
                     <SubwaySheet row={row} /><br />
-                    {/* <SubwayLineChart row={row} /> */}
+                    <SubwayLineChart row={row} />
                     <SubwayAreaChart row={row} />
                     <SubwayBarChart row={row} />
                     {/* <SubwayComposedChart row={row} /> */}
