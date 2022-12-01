@@ -6,7 +6,7 @@ import SubwaySheet from "./SubwaySheet";
 import SubwayAreaChart from "./SubwayAreaChart";
 import SubwayBarChart from "./SubwayBarChart";
 import SubwayLineChart from "./SubwayLineChart";
-// import SubwayComposedChart from "./SubwayComposedChart";
+import SubwayComposedChart from "./SubwayComposedChart";
 
 function SubwayApi() {
     const [viewChart, setViewChart] = useState(false);
@@ -32,7 +32,7 @@ function SubwayApi() {
                     <SubwayLineChart row={row} />
                     <SubwayAreaChart row={row} />
                     <SubwayBarChart row={row} />
-                    {/* <SubwayComposedChart row={row} /> */}
+                    <SubwayComposedChart row={row} />
 
                 </>
             )}
